@@ -3,6 +3,8 @@
 
 <!-- Metadata -->
 <head>
+  <script src = "/path/to/d3.min.js"></script>
+  <script src = "main.js" defer></script>
   <meta charset='utf-8'>
 
   <!-- Title -->
@@ -26,42 +28,53 @@
 <body>
 
   <!-- Update this with your GitHub repo URL -->
-  <span id='forkongithub'><a href='https://github.com/DS4200-Fall21-Sec02/practice-D3'>Fork me on GitHub</a></span>
+  <span id='forkongithub'><a href='https://github.com/DS4200-Fall21-Sec02/hw-03-practice-d3-rw-lp-wt.git'>Fork me on GitHub</a></span>
 
   <!-- Writeup -->
   <div class='content-column'>
-    <h1>hw-03: Practicing D3</h1>
+    <h1>hw-03: Practicing D3 (RW, AP, and WT)</h1>
 
     <p>
-      Replace this text. Use this space to describe your visualizations.
+      Our first visualization represents a grouped bar chart showing the relationship of different cars 
+      their countries of origin, with respect to horsepower. We selected this data set because we am 
+      both interested in cars and statistics surrounding them, and additionally, it was simple to navigate
+      and use. <a>https://perso.telecom-paristech.fr/eagan/class/igr204/datasets</a> is the link where we found
+      the original data set, under "Cars". A grouped bar chart is appropriate and optimal for this data, because it takes two categorical 
+      data points (Car Maker and Country of Origin), and visualizes one quantitative trend (Horsepower). 
+      Thus, the visualization above precisely demonstrates that, in an intuitive and aesthetically-pleasing 
+      manner. 
+     
+      <br>
+      <br>
+
+      <p>
+        Viz 1 
+  
+      <div class='vis-holder' id='vis1'>
+      </div>
+      </p>
+
+      <br> 
+      <br>
+      
+      Our second visualization is a line chart conveying the trend of graduation rates among high schools
+      in Tempe, Arizona over time, from 2012-2020. We chose this data set on behalf of our interest in education 
+      and student performance, especially in a niche city like Tempe. The initial link to this data set 
+      is <a>https://catalog.data.gov/dataset/3-08-high-school-graduation-rates-summary.</a> The choice to 
+      visualize this data through a line chart is ideal, as it is displaying a key trend over time, which can 
+      best be seen through the lens of a line chart. Therefore, the visualization below is extremely 
+      effective, and we hope it achieves the goal of highlighting a unique pattern over time. 
+    
     </p>
-
-    <h2>Simple formatting instructions</h2>
-
-    <p>
-      Use <code>&lt;p&gt;&lt;/p&gt;</code> tags to enclose a paragraph in html. <br>
-      Use <code>&lt;h2&gt;&lt;/h2&gt;</code> to enclose a heading. <br>
-      Use <code>&lt;br&gt;</code> to force a line break.
-    </p>
-
-    <p>
-      There are two premade <code>div</code> in this document that will hold your visualizations. The first one has id <code>vis1</code>, the second one has <code>vis2</code>. Write your explanation and analysis close to each of your visualizations.
-    </p>
-
-    <p>
-      Your first visualization goes here:
-    </p>
-
-    <!-- Visualization goes here -->
-    <div class='vis-holder' id='vis1'></div>
+    
+    <br> 
 
 	  <p>
-      Your second visualization goes here:
-    </p>
+      Viz 2 
 
     <!-- Visualization goes here -->
     <div class='vis-holder' id='vis2'></div>
-
+    </p>
     <h2>Acknowledgments</h2>
 
     <p>
